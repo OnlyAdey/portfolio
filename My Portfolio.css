@@ -1,0 +1,24 @@
+        .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link svg {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    fill: #8a7350; 
+}
+
+.social-link:hover svg {
+    transform: scale(1.2);
+    fill: #ffffff; 
+}
